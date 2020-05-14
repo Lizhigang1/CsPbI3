@@ -1,0 +1,30 @@
+Global Parameters
+ISTART = 1
+ICHARG=11
+ENCUT=520
+LREAL = Auto
+PREC = Normal
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+ADDGRID= .TRUE.
+
+
+Static Calculation
+ISMEAR = 0
+SIGMA = 0.05
+LORBIT = 10
+NEDOS = 2001
+NELM = 60
+EDIFF = 1E-06
+
+ 
+HSE06 Calculation
+LHFCALC= .TRUE.
+AEXX = 0.25
+HFSCREEN= 0.2
+ALGO = ALL
+TIME = 0.4
+PRECFOCK= N
+! NKRED = 2
+
+ 

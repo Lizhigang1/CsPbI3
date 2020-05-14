@@ -1,0 +1,36 @@
+Global Parameters
+ISTART = 1
+ICHARG=11
+LREAL = Auto
+PREC = Normal
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+ADDGRID= .TRUE.
+ENCUT=520
+
+
+Static Calculation
+ISMEAR = 0
+SIGMA = 0.05
+LORBIT = 10
+NEDOS = 2001
+NELM = 200
+EDIFF = 1E-07
+DFT+U Calculation
+!LDAU = .TRUE.
+!LDATYPE= 2
+!LDAUL = 2 -1
+!LDAUU = 2 0
+!LDAUJ = 0 0
+!LMAXMIX= 4
+Spin-Orbit Coupling Calculation
+  LSORBIT = .TRUE.
+  GGA_COMPAT = .FALSE.
+  VOSKOWN = 1
+  LMAXMIX = 4
+  SAXIS = 0 0 1
+  ISPIN=2
+  !MAGMOM = 12*3 4*3 4*0
+   NBANDS = 240
+
+

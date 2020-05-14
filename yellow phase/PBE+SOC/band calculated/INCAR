@@ -1,0 +1,25 @@
+IPREC = Accurate
+ENCUT = 520.0
+ISTART = 1
+ICHARG = 11
+LORBIT=10
+LCHARG=.F.
+LWAVE=.F.
+EDIFF = 1e-5
+ISMEAR = 1
+SIGMA = 0.2
+POTIM = 0.100
+NSW=0
+NEDOS=2000
+
+ 
+Spin-Orbit Coupling Calculation
+  LSORBIT = .TRUE.
+  GGA_COMPAT = .FALSE.
+  VOSKOWN = 1
+  LMAXMIX = 4
+  SAXIS = 0 0 1
+  ISPIN=2
+  !MAGMOM = 12*3 4*3 4*0
+   NBANDS = 216
+
